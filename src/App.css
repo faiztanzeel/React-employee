@@ -1,0 +1,36 @@
+body{
+  background-color: #006E6D;
+}
+.App{
+  background-color: #2E4A62;
+  min-height: 500px;
+  width: 400px;
+  margin: 40px auto;
+}
+#list-form input{
+  background-color: #4a808f;
+  border: 0;
+  width: 200px;
+  height: 50px;
+  padding: 0 20px;
+  margin: 20px;
+  font-size: 18px;
+  border-radius: 10px;
+  color: white;
+}
+#list-form input::placeholder{
+  color: rgba(255, 255, 255, 0.5);
+}
+#list-form input:focus,#list-form button:focus{
+  outline: none;
+}
+#list-form button{
+  height: 50px;
+  width: 80px;
+  border-radius: 5px;
+  border: 0;
+  background-color: rgba(202,156,24);
+  cursor: pointer;
+  font-weight: bolder;
+  color: white;
+}
